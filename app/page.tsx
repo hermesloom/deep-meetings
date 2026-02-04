@@ -160,10 +160,29 @@ export default function Home() {
               <h2 className="text-2xl font-semibold tracking-tight text-foreground">
                 Hallo ❤️
               </h2>
+              <p className="text-lg text-muted-foreground italic">
+                Worum es hier geht:
+              </p>
               <div className="space-y-10">
                 {principles.de.map((principle, index) => (
                   <PrincipleCard key={index} principle={principle} />
                 ))}
+              </div>
+              <div className="mt-12 pt-8 border-t border-border">
+                <p className="text-base leading-7 text-foreground mb-4 font-semibold">
+                  Möchtest du Leute kennenlernen, die auch so ticken? Dann komm am 7. oder 21. März 2026 um 14 Uhr zu diesem Ort im Kurpark Lüneburg:
+                </p>
+                <a
+                  href="https://maps.app.goo.gl/nv79YnBL3e5kL6cn8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg font-semibold text-base hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg"
+                  aria-label="Ort auf Google Maps ansehen"
+                >
+                  <span>📍</span>
+                  <span>Auf Google Maps ansehen</span>
+                  <span className="text-xs">↗</span>
+                </a>
               </div>
             </section>
 
@@ -173,10 +192,29 @@ export default function Home() {
               <h2 className="text-2xl font-semibold tracking-tight text-foreground">
                 Hey ❤️
               </h2>
+              <p className="text-lg text-muted-foreground italic">
+                What this is about:
+              </p>
               <div className="space-y-10">
                 {principles.en.map((principle, index) => (
                   <PrincipleCard key={index} principle={principle} />
                 ))}
+              </div>
+              <div className="mt-12 pt-8 border-t border-border">
+                <p className="text-base leading-7 text-foreground mb-4 font-semibold">
+                  Want to meet people who think the same way? Then come on March 7th or 21st, 2026 at 2 PM to this location in Kurpark Lüneburg:
+                </p>
+                <a
+                  href="https://maps.app.goo.gl/nv79YnBL3e5kL6cn8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg font-semibold text-base hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg"
+                  aria-label="View location on Google Maps"
+                >
+                  <span>📍</span>
+                  <span>View on Google Maps</span>
+                  <span className="text-xs">↗</span>
+                </a>
               </div>
             </section>
           </div>
