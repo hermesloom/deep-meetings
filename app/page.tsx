@@ -158,7 +158,7 @@ export default function Home() {
           <div className="space-y-12">
             <section className="space-y-8">
               <h2 className="text-2xl font-semibold tracking-tight text-foreground">
-                Deutsch
+                Hallo ❤️
               </h2>
               <div className="space-y-10">
                 {principles.de.map((principle, index) => (
@@ -171,7 +171,7 @@ export default function Home() {
 
             <section className="space-y-8">
               <h2 className="text-2xl font-semibold tracking-tight text-foreground">
-                English
+                Hey ❤️
               </h2>
               <div className="space-y-10">
                 {principles.en.map((principle, index) => (
