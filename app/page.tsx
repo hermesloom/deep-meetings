@@ -170,19 +170,36 @@ export default function Home() {
               </div>
               <div className="mt-12 pt-8 border-t border-border">
                 <p className="text-base leading-7 text-foreground mb-4 font-semibold">
-                  Möchtest du Leute kennenlernen, die auch so ticken? Dann komm am 7. oder 21. März 2026 um 14 Uhr zu diesem Ort im Kurpark Lüneburg:
+                  Möchtest du Leute kennenlernen, die auch so ticken? Dann komm am{" "}
+                  <span className="px-2 py-1 bg-primary/20 text-primary font-bold rounded">
+                    4. April 2026 um 14 Uhr
+                  </span>{" "}
+                  zu diesem Ort im Kurpark Lüneburg:
                 </p>
-                <a
-                  href="https://maps.app.goo.gl/nv79YnBL3e5kL6cn8"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg font-semibold text-base hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg"
-                  aria-label="Ort auf Google Maps ansehen"
-                >
-                  <span>📍</span>
-                  <span>Auf Google Maps ansehen</span>
-                  <span className="text-xs">↗</span>
-                </a>
+                <div className="flex flex-wrap gap-3">
+                  <a
+                    href="https://maps.app.goo.gl/nv79YnBL3e5kL6cn8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg font-semibold text-base hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg"
+                    aria-label="Ort auf Google Maps ansehen"
+                  >
+                    <span>📍</span>
+                    <span>Auf Google Maps ansehen</span>
+                    <span className="text-xs">↗</span>
+                  </a>
+                  <a
+                    href="/flyer.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-secondary text-secondary-foreground rounded-lg font-semibold text-base hover:bg-secondary/90 transition-colors shadow-md hover:shadow-lg border border-border"
+                    aria-label="Flyer selbst drucken"
+                  >
+                    <span>📄</span>
+                    <span>Flyer selbst drucken</span>
+                    <span className="text-xs">↗</span>
+                  </a>
+                </div>
               </div>
             </section>
 
@@ -202,22 +219,45 @@ export default function Home() {
               </div>
               <div className="mt-12 pt-8 border-t border-border">
                 <p className="text-base leading-7 text-foreground mb-4 font-semibold">
-                  Want to meet people who think the same way? Then come on March 7th or 21st, 2026 at 2 PM to this location in Kurpark Lüneburg:
+                  Want to meet people who think the same way? Then come on{" "}
+                  <span className="px-2 py-1 bg-primary/20 text-primary font-bold rounded">
+                    April 4th, 2026 at 2 PM
+                  </span>{" "}
+                  to this location in Kurpark Lüneburg:
                 </p>
-                <a
-                  href="https://maps.app.goo.gl/nv79YnBL3e5kL6cn8"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg font-semibold text-base hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg"
-                  aria-label="View location on Google Maps"
-                >
-                  <span>📍</span>
-                  <span>View on Google Maps</span>
-                  <span className="text-xs">↗</span>
-                </a>
+                <div className="flex flex-wrap gap-3">
+                  <a
+                    href="https://maps.app.goo.gl/nv79YnBL3e5kL6cn8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg font-semibold text-base hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg"
+                    aria-label="View location on Google Maps"
+                  >
+                    <span>📍</span>
+                    <span>View on Google Maps</span>
+                    <span className="text-xs">↗</span>
+                  </a>
+                  <a
+                    href="/flyer.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-secondary text-secondary-foreground rounded-lg font-semibold text-base hover:bg-secondary/90 transition-colors shadow-md hover:shadow-lg border border-border"
+                    aria-label="Print flyer"
+                  >
+                    <span>📄</span>
+                    <span>Print flyer</span>
+                    <span className="text-xs">↗</span>
+                  </a>
+                </div>
               </div>
             </section>
           </div>
+        </div>
+        
+        <div className="mt-16 pt-8 border-t border-border">
+          <p className="text-sm text-muted-foreground italic text-center">
+            This page exists online so we can meet offline. Share it with people who might be interested.
+          </p>
         </div>
       </main>
     </div>
